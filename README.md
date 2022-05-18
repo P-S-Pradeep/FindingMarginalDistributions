@@ -20,7 +20,7 @@ Correlation coefficients are indicators of the strength of the linear relationsh
 
 
 
-# Procedure :
+# <br/><br/><br/><br/><br/><br/>Procedure :
 ![image](https://user-images.githubusercontent.com/104613195/168220332-09383cb4-a7ac-4526-b547-fc522ca53227.png)
 
 
@@ -73,9 +73,9 @@ print("Covariance Coefficient of Corelation:\t",Covariance_coeff.round(4))
 
 
 
-# Output : 
+# <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Output : 
 ![Screenshot 2022-05-18 162141](https://user-images.githubusercontent.com/102652887/168963323-2baee8c3-be7f-4481-8308-937386314b38.png)
 
-# Result :
+# <br/><br/><br/><br/><br/><br/>Result :
 marginal distributions and correation coefficient of joint probability mass funcition of two dimensional random variables is found using python program.
 
