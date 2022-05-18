@@ -26,9 +26,52 @@ Correlation coefficients are indicators of the strength of the linear relationsh
 
 
 # Program
+```
+# Developed By : Pradeep PS
+# Register No: 212220230034
+
+``
+```python
+import numpy as np
+import math
+p=[[0,0.01,0.03,0.05,0.07,0.09],
+  [0.01,0.02,0.04,0.05,0.06,0.08],
+  [0.01,0.03,0.05,0.05,0.05,0.06],
+  [0.01,0.02,0.04,0.06,0.06,0.05]]
+px=np.sum(p,axis=0)
+px
+py=np.sum(p,axis=1)
+py
+x=[0,1,2,3,4,5]
+ex=np.inner(x,px)
+ex
+y=[0,1,2,3]
+ey=np.inner(y,py)
+ey
+ex2=np.inner(np.square(x),px)
+ex2
+ey2=np.inner(np.square(y),py)
+ey2
+vx=ex2-ex**2
+sx=math.sqrt(vx)
+vx
+vy=ey2-ey**2
+sy=math.sqrt(vy)
+vy
+exy=0
+for i in range(6):
+    for j in range(4):
+        exy=exy+x[i]*y[j]*p[j][i]
+exy
+cov=exy-ex*ey
+r=cov/(sx*sy)
+```
 
 
 
+# Output : 
 
-# Results and Output : 
+![168961787-ce2039db-9bac-4ea5-a4ad-50a07cadd09e](https://user-images.githubusercontent.com/102652887/168962622-0a6ec897-3467-4d44-8af1-65c7e2ec51ac.png)
+![168961794-a2b872ee-a502-41c3-8b64-c41a6309c1d5](https://user-images.githubusercontent.com/102652887/168962646-ac7cc02e-7ef1-4c98-8dbd-12ac5d67be62.png)
 
+#  Results:
